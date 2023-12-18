@@ -47,3 +47,43 @@ a:hover {
 a img {
 	border: none;
 }
+#menu {
+	overflow: hidden;
+	background: #101010;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 40px 0px 40px;
+	line-height: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	color: rgba(255,255,255,0.5);
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+}
+
+#menu .current_page_item a {
+}
+
+#menu .last {
+	border-right: none;
+}
