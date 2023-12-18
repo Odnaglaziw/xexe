@@ -33,9 +33,6 @@ p {
 	line-height: 180%;
 }
 
-strong {
-}
-
 a {
 	color: rgba(0,0,0,.8);
 }
@@ -81,8 +78,6 @@ a img {
 	color: rgba(255,255,255,0.8);
 }
 
-#menu .current_page_item a {
-}
 
 #menu .last {
 	border-right: none;
@@ -171,14 +166,14 @@ hr {
 }
 #header-wrapper
 {
-	background: url(bg.png) no-repeat center center;
+	background: url(bg.png)  no-repeat center center;
 	background-size: cover;
 }
 
 #header {
 	position: relative;
 	overflow: hidden;
-	height: 600px;
+	height: 300px;
 }
 
 #social
@@ -404,9 +399,6 @@ ul.style3 .first {
 		border-top: 1px solid rgba(0,0,0,.05);
 	}
 	
-	#portfolio
-	{
-	}
 
 	#portfolio .box
 	{
@@ -423,9 +415,7 @@ ul.style3 .first {
 		color: rgba(0,0,0,0.7);
 	}
 
-	#portfolio .title
-	{
-	}
+
 
 	#portfolio .title h2
 	{
@@ -524,10 +514,7 @@ ul.style3 .first {
 		margin: 0;
 		padding: 0;
 	}
-	
-	ul.contact li a
-	{
-	}
+
 	
 	ul.contact li a:before
 	{
